@@ -15,7 +15,7 @@ mae = mean_absolute_error(Y, predicted_score)
 mse = mean_squared_error(Y, predicted_score)
 rmse = np.sqrt(mse)
 
-print("Mean Absolute Error: ", mae)
+print("Mean Absolute Error: ",mae)
 print("Mean Squared Error: ", mse)
 print("Root Mean Squared Error: ", rmse)
 new_pred = model.predict([[7]])
